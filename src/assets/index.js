@@ -10,6 +10,8 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import kafka from "./tech/kafka.png";
+import next from "./tech/next.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -27,12 +29,15 @@ import postman from "./tech/postman.png";
 
 import samsung from "./company/samsung.png";
 import cisco from "./company/cisco.png";
+import sevn from "./company/sevn.png";
 import gfg from "./company/gfg.png";
 import juntrax from "./company/juntrax.png";
 
 import p2p from "./p2p.png";
 import codesnippet from "./codesnippet.png";
 import kaooa from "./kaooa.png";
+import promptopia from "./promptopia.png";
+import iotnethub from "./iotnethub.png";
 import magicnotes from "./magicnotes.png";
 import fileexplorer from "./file-explorer.png";
 import seamcarving from "./seamcarving.png";
@@ -50,6 +55,8 @@ export {
   css,
   docker,
   git,
+  kafka,
+  next,
   html,
   javascript,
   cpp,
@@ -65,11 +72,14 @@ export {
   postman,
   samsung,
   cisco,
+  sevn,
   gfg,
   juntrax,
   p2p,
   codesnippet,
   kaooa,
+  promptopia,
+  iotnethub,
   magicnotes,
   fileexplorer,
   seamcarving

@@ -13,6 +13,9 @@ import {
     nodejs,
     mongodb,
     git,
+    docker,
+    kafka,
+    next,
     cpp,
     python,
     wordpress,
@@ -20,11 +23,14 @@ import {
     postman,
     samsung,
     cisco,
+    sevn,
     gfg,
     juntrax,
     p2p,
     codesnippet,
     kaooa,
+    promptopia,
+    iotnethub,
     magicnotes,
     seamcarving,
     fileexplorer
@@ -48,6 +54,10 @@ import {
       title: "Testimonials",
     },
     {
+      id: "hire",
+      title: "Hire Me",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -55,11 +65,11 @@ import {
   
   const services = [
     {
-      title: "Full Stack Developer",
+      title: "Software Engineer",
       icon: backend,
     },
     {
-      title: "UI/UX Designer",
+      title: "Product Designer",
       icon: web,
     },
     {
@@ -102,32 +112,45 @@ import {
       icon: bootstrap,
     },
     {
-      name: "tailwind",
-      icon: tailwind,
+      name: "next",
+      icon: next,
     },
     {
       name: "postman",
       icon: postman,
     },
     {
-      name: "wordpress",
-      icon: wordpress,
+      name: "kafka",
+      icon: kafka,
     },
     {
-      name: "canva",
-      icon: canva,
+      name: "docker",
+      icon: docker,
     }
   ];
   
   const experiences = [
     {
       title: "Software Developer Intern",
+      company_name: "Sevn.ai (YC'24)",
+      icon: sevn,
+      iconBg: "white",
+      date: "December 2023 - March 2024",
+      points: [
+        "Developed canvas features and toolbox functionalities using VueJS, FabricJS, and TypeScript.",
+        "Migrated vector embedding storage from Pinecone to Supabase, reducing retrieval time and storage costs."
+      ],
+    },
+    {
+      title: "Software Developer Intern",
       company_name: "Samsung",
       icon: samsung,
       iconBg: "white",
-      date: "June 2023 - Present",
+      date: "June 2023 - July 2023",
       points: [
-        "Working with the Voice Intelligence Team at SRIB."
+        "Utilized prompt engineering techniques to fine‐tune voice assistant prompts, improving QnA scenario.",
+        "Developed Bixby capsules by integrating GPT‐3.5 within the Bixby Home Studio framework, delivering operational PoCs.",
+        "Leveraged SmartThings API for sensor data, increasing automation efficiency with optimal recommendation algorithms."
       ],
     },
     {
@@ -176,7 +199,7 @@ import {
       name: "Anjana Desai",
       designation: "CEO",
       company: "Juntrax Solutions",
-      image: "https://media.licdn.com/dms/image/C4D03AQGXHehmYG4qUA/profile-displayphoto-shrink_100_100/0/1653776074297?e=1692230400&v=beta&t=MgSEMbHmPohXUh_GYKF3A5TA6OlIg1f4XUjGoc1oECY",
+      image: "https://i.ibb.co/tKB8tQN/anjana.jpg",
     },
     {
       testimonial:
@@ -184,7 +207,7 @@ import {
       name: "Sumanth Kanakamedala",
       designation: "Lead Developer",
       company: "Antar IOT",
-      image: "https://media.licdn.com/dms/image/D5603AQGyCaADWWLSEg/profile-displayphoto-shrink_100_100/0/1684716977129?e=1692230400&v=beta&t=uYLn17nSuNkwVzvG_3dkNTdmjttLqQTeucAmoTA49AY",
+      image: "https://i.ibb.co/b6nCFNn/sumant.jpg",
     },
     {
       testimonial:
@@ -192,11 +215,54 @@ import {
       name: "Sonal Shenoy",
       designation: "Marketing Consultant",
       company: "StartEarly",
-      image: "https://media.licdn.com/dms/image/C5603AQGxgQuS7NZCZg/profile-displayphoto-shrink_100_100/0/1621870029185?e=1692230400&v=beta&t=mN90PAJocjhjr-KxQd_6eGrMUmqij1DIAGRDanmjXmo",
+      image: "https://i.ibb.co/RyksHj6/sonal.jpg",
     },
   ];
   
   const projects = [
+    {
+      name: "IotNetHub",
+      description:
+        "A distributed IoT hosting platform simplifies application setup across domains, integrates seamlessly with data sources, uses oneM2M for data collection, and offers flexible configurations, strong security, and efficient resource use.",
+      tags: [
+        {
+          name: "docker",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "kafka",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: iotnethub,
+      source_code_link: "https://github.com/Praddyumn16/IoTNetHub",
+    },
+    {
+      name: "Promptopia",
+      description:
+        "A full stack application for creating, sharing and exploring prompts along with user profiles and authentication via NextAuth.",
+      tags: [
+        {
+          name: "next.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: promptopia,
+      source_code_link: "https://github.com/Praddyumn16/Promptopia",
+      live_code_link: "https://promptopia-pi-nine.vercel.app/",
+    },
     {
       name: "Mini Bit Torrent",
       description:

@@ -4,13 +4,13 @@ import { styles } from "../styles";
 
 const Hire = () => {
   return (
-    <div
+    <div id="hire"
       className={`${styles.sectionSubText} ${styles.padding} flex justify-center text-justify bg-black-100 rounded-xl`}
     >
       <div>
         Want to hire me? Have a look at my&nbsp;
         <a
-          href="https://drive.google.com/file/d/10u-CxGOiNhbyQSqyZ-mK7_58eoCxO5_i/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1ALNJp_p_LGw926KviFTXmDcPlkFKQ1-s/view?usp=sharing"
           target="_blank"
           className="text-blue-800"
         >

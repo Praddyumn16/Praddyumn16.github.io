@@ -44,19 +44,18 @@ const About = () => {
           variants={fadeIn("right", "", 0.1, 1)}
           className="mt-4 lg:pr-4 text-secondary text-[17px] max-w-xl leading-[30px] text-justify"
         >
-          Praddyumn is currently an SDE intern at Samsung and he is pursuing his
+          Praddyumn is currently working as a Senior Engineer at Samsung after graduating with an
           MTech in Computer Science from IIIT Hyderabad. Because of his interest
-          to explore a lot, he brings in an experience of working in technical
-          as well as non-technical roles during the start of his career at
-          various startups and MNC'S.
+          to explore a lot, he brings in the experience of working as an intern in tech and non-tech roles
+          in his career at MNC's like Cisco as well as at Stealth startups.
         </motion.p>
         <motion.p
           variants={fadeIn("left", "", 0.1, 1)}
           className="mt-4 lg:pl-4 text-secondary text-[17px] max-w-xl leading-[30px] text-justify"
         >
           He has also qualified GATE exam twice in Computer Science and out of
-          his passion for teaching, he has worked with GeeksforGeeks as an
-          Associate Mentor. In order to guide others and enhance his own public
+          his passion for teaching, he has worked with GeeksforGeeks and Unacademy as an
+          Educator. In order to guide others and enhance his own public
           speaking skills, he shares his experiences through a YouTube channel
           as well.
         </motion.p>
